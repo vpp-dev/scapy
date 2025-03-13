@@ -31,8 +31,8 @@ from scapy.volatile import RandBin, RandField, RandNum, RandNumExpo
 from scapy.arch import get_if_raw_hwaddr
 from scapy.sendrecv import srp1, sendp
 from scapy.error import warning
-import scapy.modules.six as six
-from scapy.modules.six.moves import range
+import six
+from six.moves import range
 from scapy.config import conf
 
 dhcpmagic = b"c\x82Sc"

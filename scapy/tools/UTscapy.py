@@ -27,8 +27,8 @@ import warnings
 import zlib
 
 from scapy.consts import WINDOWS
-import scapy.modules.six as six
-from scapy.modules.six.moves import range
+import six
+from six.moves import range
 from scapy.config import conf
 from scapy.compat import base64_bytes, bytes_hex, plain_str
 from scapy.themes import DefaultTheme, BlackAndWhite

@@ -64,8 +64,8 @@ from scapy.pton_ntop import inet_pton
 
 import scapy.as_resolvers
 
-import scapy.modules.six as six
-from scapy.modules.six.moves import range
+import six
+from six.moves import range
 
 ####################
 #  IP Tools class  #

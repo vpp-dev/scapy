@@ -29,9 +29,9 @@ from scapy.fields import BitField, FlagsField, StrLenField, \
     BitEnumField, ByteField, XByteField, BitFieldLenField, StrField
 from scapy.compat import chb, orb
 from scapy.layers.can import CAN, CAN_MAX_IDENTIFIER, CAN_MTU, CAN_MAX_DLEN
-import scapy.modules.six as six
+import six
 import scapy.automaton as automaton
-from scapy.modules.six.moves import queue
+from six.moves import queue
 from scapy.error import Scapy_Exception, warning, log_loading, log_runtime
 from scapy.supersocket import SuperSocket, SO_TIMESTAMPNS
 from scapy.config import conf

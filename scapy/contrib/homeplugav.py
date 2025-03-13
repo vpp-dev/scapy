@@ -44,7 +44,7 @@ from scapy.fields import (
     XShortField,
 )
 from scapy.layers.l2 import Ether
-from scapy.modules.six.moves import range
+from six.moves import range
 
 """
     Copyright (C) HomePlugAV Layer for Scapy by FlUxIuS (Sebastien Dudek)

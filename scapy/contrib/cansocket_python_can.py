@@ -21,7 +21,7 @@ from scapy.config import conf
 from scapy.supersocket import SuperSocket
 from scapy.layers.can import CAN
 from scapy.error import warning
-from scapy.modules.six.moves import queue
+from six.moves import queue
 from scapy.compat import Any, List
 from can import Message as can_Message
 from can import CanError as can_CanError

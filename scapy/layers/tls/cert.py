@@ -33,8 +33,8 @@ import os
 import time
 
 from scapy.config import conf, crypto_validator
-import scapy.modules.six as six
-from scapy.modules.six.moves import range
+import six
+from six.moves import range
 from scapy.error import warning
 from scapy.utils import binrepr
 from scapy.asn1.asn1 import ASN1_BIT_STRING

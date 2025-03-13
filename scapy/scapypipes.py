@@ -7,7 +7,7 @@ from __future__ import print_function
 import socket
 import subprocess
 
-from scapy.modules.six.moves.queue import Queue, Empty
+from six.moves.queue import Queue, Empty
 from scapy.pipetool import Source, Drain, Sink
 from scapy.config import conf
 from scapy.compat import raw

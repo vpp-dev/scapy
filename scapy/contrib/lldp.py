@@ -51,7 +51,7 @@ from scapy.fields import MACField, IPField, BitField, \
     ShortField, XStrLenField, ByteField, ConditionalField, \
     MultipleTypeField
 from scapy.packet import Packet, bind_layers
-from scapy.modules.six.moves import range
+from six.moves import range
 from scapy.data import ETHER_TYPES
 from scapy.compat import orb
 

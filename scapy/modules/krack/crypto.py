@@ -6,8 +6,8 @@ from zlib import crc32
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms
 from cryptography.hazmat.backends import default_backend
 
-import scapy.modules.six as six
-from scapy.modules.six.moves import range
+import six
+from six.moves import range
 from scapy.compat import orb, chb
 from scapy.layers.dot11 import Dot11TKIP
 from scapy.utils import mac2str
